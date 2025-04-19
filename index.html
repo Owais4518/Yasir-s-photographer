@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yasir Photographer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      background: url('https://source.unsplash.com/1600x600/?photography') no-repeat center center/cover;
+      height: 600px;
+      color: rgb(26, 40, 167);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    header h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .testimonials, .pricing {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+    .testimonial, .pricing-plan, .blog-post, .faq {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yasir Photographer</h1>
+    <p>Capturing Moments, Creating Memories</p>
+  </header>
+
+  <nav>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#blog">Blog</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="portfolio" class="section">
+    <h2>Portfolio</h2>
+    <div class="https://38665-pakistani-bridal-images-kbridals-photography-jokes-and-laughter.jpeg gallery">
+      <img src="https://image/download (1).jpeg wedding" alt="Wedding">
+      <img src="https://image/download (2).jpeg nature" alt="Nature">
+      <img src="https://image/download.jpeg portrait" alt="Portrait">
+      <img src="https://image/images (1).jpeg events" alt="Events">
+      <img src="https://image/images (2).jpeg fashion" alt="Fashion">
+      <img src="https://image/images.jpeg studio" alt="Studio">
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p style="max-width: 800px; margin: auto; text-align: center; font-size: 1.1rem;">
+      I am Yasir, a passionate photographer based in Karachi. My journey started with a camera in hand and a dream to capture the essence of life through my lens. I specialize in weddings, portraits, and event photography. With years of experience and a creative eye, I strive to turn every moment into a timeless memory.
+    </p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <ul style="list-style: none; max-width: 800px; margin: auto; font-size: 1.1rem; padding: 0;">
+      <li>📷 Wedding Photography</li>
+      <li>📸 Portrait Sessions</li>
+      <li>🎉 Event Coverage</li>
+      <li>🏞️ Outdoor Shoots</li>
+      <li>🏢 Studio Photography</li>
+    </ul>
+  </section>
+
+  <section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>"Yasir did an amazing job at our wedding! The pictures are stunning and he captured every special moment beautifully."</p>
+        <strong>- waqar & khansa</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Highly professional and super friendly. I loved how he made everyone feel comfortable during the shoot."</p>
+        <strong>- Sana R.</strong>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section">
+    <h2>Pricing Plans</h2>
+    <div class="pricing">
+      <div class="pricing-plan">
+        <h3>Basic Package</h3>
+        <p>✔ 1 Hour Session<br>✔ 15 Edited Photos<br>✔ Digital Delivery</p>
+        <p><strong>Rs 5,000</strong></p>
+      </div>
+      <div class="pricing-plan">
+        <h3>Standard Package</h3>
+        <p>✔ 3 Hour Session<br>✔ 50 Edited Photos<br>✔ USB + Digital Delivery</p>
+        <p><strong>Rs 12,000</strong></p>
+      </div>
+      <div class="pricing-plan">
+        <h3>Premium Package</h3>
+        <p>✔ Full Day Coverage<br>✔ 100+ Edited Photos<br>✔ Album + USB + Digital</p>
+        <p><strong>Rs 25,000</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="section">
+    <h2>Photography Blog</h2>
+    <div class="blog-post">
+      <h3>Top 5 Wedding Photography Tips</h3>
+      <p>Discover how to make your wedding shoot perfect with these helpful tips from Yasir's experience.</p>
+    </div>
+    <div class="blog-post">
+      <h3>Why Outdoor Shoots are Magical</h3>
+      <p>Learn how natural light and beautiful landscapes enhance your portraits.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+      <h4>How do I book a session?</h4>
+      <p>Simply contact me via WhatsApp or email to check availability and discuss your needs.</p>
+    </div>
+    <div class="faq">
+      <h4>What is your delivery time?</h4>
+      <p>Typically, edited photos are delivered within 7-10 days after the shoot.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p style="text-align: center; font-size: 1.1rem;">
+      📞 Phone: 03181280714 <br>
+      📧 Email: Yousufzaiii997@gmail.com <br>
+      📍 Location: Surjani Town, Sector 5D, Karachi, Pakistan
+    </p>
+  </section>
+
+  <a class="whatsapp-button" href="https://wa.me/03181280714" target="_blank">Chat on WhatsApp</a>
+
+  <footer>
+    <p style="text-align: center; padding: 20px; background-color: #333; color: white;">&copy;  copyright website desighned by:Afham Ahmed 2025 Yasir Photographer. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
